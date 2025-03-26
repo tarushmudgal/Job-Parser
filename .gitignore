@@ -1,0 +1,54 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+/media/
+*/migrations/
+
+# Virtual environment
+venv/
+*.venv/
+env/
+*.env/
+
+# Environment variables file
+.env
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Operating System-specific files
+.DS_Store
+Thumbs.db
+
+# Static and media files that can be generated
+/static/
+*.log
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# MyPy
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Docker
+docker-compose.override.yml
